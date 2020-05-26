@@ -1,0 +1,25 @@
+<html>
+<head>
+
+
+</head>
+<body style="background-color:teal">
+<h1 style="text-align:center;font-size:50px;font-family:Comic Sans Ms"><b>WWW.WORDCOUNT.COM<b></h1>
+
+        
+        <marquee direction="right" behavior="alternate" style="font-size:30px;font-family: Comic Sans MS;color:navy" >WELCOME TO OUR WEBSITE</marquee></div>
+    
+   <form action="{% url 'count' %}">
+   <center>
+      <textarea name="fulltextarea" cols=100% rows=10 style="font-size:20px" placeholder="Type Something here......."></textarea></br>
+      <br><br><br>
+      <input type="submit" value="Count Here!"  style="font-size:20px"/>
+   </center>
+   </form>
+
+<button><a href={% url 'about'%} style="font-size:20px">About Us</a></button>
+</body>
+
+
+
+</html>

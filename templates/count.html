@@ -1,0 +1,16 @@
+<body style="background-color:teal">
+<h1 style="text-align:center">Counted </h1>
+<a href={%url 'home'%}>Back To Home</a>
+<h1>Your Text</h1>
+<h4>{{fulltext}}</h4>
+<br/>
+
+<h1>Word counted = {{word_num}}</h1>
+<br><br>
+
+
+{%for word,value in worddictionary%}
+{{word}} = {{value}}
+<br/>
+{%endfor%}
+</body>
